@@ -8,7 +8,7 @@ terraform {
 
 provider "random" {}
 
-resource "random_id" "example" {
+/*resource "random_id" "example" {
   byte_length = 8
   count = 2
 }
@@ -18,4 +18,4 @@ resource "random_password" "password" {
   special          = true
   override_special = "!#$%&*()-_=+[]{}<>:?"
   count = 2
-}
+}*/
